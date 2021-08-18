@@ -1,0 +1,17 @@
+.input {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 5px 10px 0.5px rgba(0, 0, 0, 1);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    width: 250px;
+    margin-top: 25px;
+}
+
+@media (max-width: 360px) {
+
+    .input {
+    width: 100%;        
+    }
+}

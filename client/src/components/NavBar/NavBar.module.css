@@ -1,0 +1,66 @@
+.navbar {
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.home {
+    margin: 10px 0;
+    padding: 5px 5px;
+    color: white;
+}
+
+.home:hover {
+    color: brown
+}
+
+.filters {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 10px 0;
+    padding: 5px 5px;
+    color: white;
+}
+
+.filters:hover {
+    cursor: pointer;
+    border-bottom: solid 1px brown;
+}
+
+.linkNav {
+    margin: 10px 0;
+    padding: 5px 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.linkNav:hover,
+.navbarDetail:hover {
+    cursor: pointer;
+    border-bottom: solid 1px brown;
+}
+
+.navbarDetail {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+@media (max-width: 360px) {
+
+    .filters,
+    .linkNav {
+        font-size: 10px;
+    }
+
+    .linkNav {
+        display: flex;
+        align-items: center;
+
+    }
+}

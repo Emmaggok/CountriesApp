@@ -1,0 +1,58 @@
+.container {
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showAllButton {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+
+.showAllButton:hover {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border-bottom: 1px brown solid;
+}
+
+.filterButtons {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+
+.filterButtons:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.showAll {
+    display: flex;
+    align-items: center;
+}
+
+.selectWidth {
+    background-color: brown;
+    width: 100%;
+    color: white;
+}
+
+.select {
+    background-color: brown;
+    color: white; 
+}
+
+.options {
+    color: white;
+    background-color: brown;
+}
+
+.select:hover,
+.continentForm:hover,
+.options:hover,
+.selectWidth:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.navbar {
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.home {
+    margin: 10px 0;
+    padding: 5px 5px;
+    color: white;
+}
+
+.home:hover {
+    color: brown
+
+}
+
+.title {
+    margin: 10px 0;
+    padding: 5px 5px;
+    color: white;
+}
+
+.title:hover {
+    border-bottom: solid 1px brown;
+}

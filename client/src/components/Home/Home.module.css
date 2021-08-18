@@ -1,0 +1,171 @@
+.container {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.country {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    height: 180px;
+}
+
+.country:hover {
+    cursor: pointer;
+    border: 2px solid brown;
+    box-shadow: 3px 5px 10px 0.5px rgba(255, 255, 255, 0.3);
+    transition: all 0.1s ease-in-out;
+}
+
+.country div {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-bottom: 1px white solid;
+}
+
+.country div h3 {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    width: 100%;
+}
+
+.country div h3:hover {
+   color: brown;
+}
+
+.flag {
+    border: 1px solid white;
+    margin-top: 20px;
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    transition: all 1s linear;
+}
+
+.flag:hover {
+    transform: scale(1.2);
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20PX;
+    margin-bottom: 50px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.title:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.pages button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.pages button:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.filters {
+    box-shadow: 5px 10px 10px 1px rgba(255, 255, 255, 0.5);
+    transition: all 0.8s linear;
+}
+
+.filtersOff {
+    position: absolute;
+    top: -100px;
+}
+
+.msg  {
+    position: absolute;
+    width: 98.5%;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 360px) {
+
+    .container {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .country {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 95%;
+        margin-bottom: 1px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .country div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .country div h3 {
+        font-size: 10px;
+    }
+
+    .flag {
+        border: 1px solid white;
+        margin-top: 1px;
+        width: 100px;
+        height: 60px;
+    }
+
+    .flag:hover {
+        transform: scale(1);
+    }
+
+    .pages h3, 
+    .pages button {
+        font-size: 10px;
+    }
+  
+}

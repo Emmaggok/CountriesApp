@@ -1,0 +1,65 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 10px;
+    border: 1px solid brown;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container h1:hover {
+    color: brown;
+}
+
+.flagContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flag {
+    border: 2px solid brown;
+    object-fit: cover;
+    width: 280px;
+    height: 200px;
+}
+
+.flag:hover {
+    box-shadow: 5px 10px 10px 1px rgba(255, 255, 255, 0.2);
+    transition: all 0.1s ease-in-out;
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid brown;
+}
+
+.activitiesContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 15px;
+    border: 1px solid brown;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 5px;
+}
+
+.msg {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid brown;
+}
